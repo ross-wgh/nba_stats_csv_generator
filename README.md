@@ -1,6 +1,7 @@
 # nba_stats_csv_generator
 
 Program creates csv containing counting stats by game in same directory as nba_stats_csv_generator.py
+
 File name is '(First)_(Last)_(season)'stats.csv))
 
 Enter current or former nba player and the season you want to see.
