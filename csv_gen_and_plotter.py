@@ -100,7 +100,7 @@ class Player:
     def graph(self):
         reader = pd.read_csv(self.file_name, encoding='latin1')
         if reader.plot.scatter(self.x_axis, self.y_axis):
-            reader.plot.scatter(self.x_axis, self.y_axis)
+            reader.plot.scatter(self.x_axis, self.y_axis, title= f"{self.name}, {str(int(self.year)-1)}-{self.year}")
             return True
         else:
             print("The x or y axis entered is not valid")
