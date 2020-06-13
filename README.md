@@ -5,4 +5,8 @@ Program creates csv containing counting stats by game in same directory as nba_s
 
 Enter current or former nba player and the season you want to see.
 
+Uses pandas to plot stats
+
+OOP approach
+
 Stats retrieved from https://www.basketball-reference.com
